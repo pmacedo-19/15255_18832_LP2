@@ -1,4 +1,0 @@
-E:\Code\15255_18832_LP2\15255_18832_LP2\TrabalhoPLII\TrabalhoPLII\obj\Debug\netcoreapp3.1\TrabalhoPLII.csprojAssemblyReference.cache
-E:\Code\15255_18832_LP2\15255_18832_LP2\TrabalhoPLII\TrabalhoPLII\obj\Debug\netcoreapp3.1\TrabalhoPLII.csproj.CoreCompileInputs.cache
-E:\Code\15255_18832_LP2\15255_18832_LP2\TrabalhoPLII\TrabalhoPLII\obj\Debug\netcoreapp3.1\TrabalhoPLII.AssemblyInfoInputs.cache
-E:\Code\15255_18832_LP2\15255_18832_LP2\TrabalhoPLII\TrabalhoPLII\obj\Debug\netcoreapp3.1\TrabalhoPLII.AssemblyInfo.cs

@@ -1,0 +1,13 @@
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csprojAssemblyReference.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfo.cs
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.exe
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.deps.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.dev.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.dll
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.dll
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.genruntimeconfig.cache

@@ -1,0 +1,4 @@
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csprojAssemblyReference.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfo.cs
