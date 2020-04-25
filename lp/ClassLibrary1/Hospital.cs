@@ -147,8 +147,8 @@ namespace LibrariaHospital
             Console.WriteLine("Idade            : " + doentes[i].Idade);
             Console.WriteLine("ID               : " + doentes[i].Id);
             Console.WriteLine("Data nascimento  : " + doentes[i].DataNasc);
-            Console.WriteLine("Sexo             : " + doentes[i].Sexo);
-            Console.WriteLine("Profissao        : " + doentes[i].Profissao);
+            Console.WriteLine("Sexo             : " + doentes[i].Sex);
+            Console.WriteLine("Profissao        : " + doentes[i].Prof);
             Console.WriteLine("Infetado com     : " + doentes[i].AdicionarInfecao.Tipo + "nome : " + doentes[i].AdicionarInfecao.Nome);
             Console.WriteLine("Infetado         : " + doentes[i].Estado);
             Console.WriteLine();
@@ -166,10 +166,10 @@ namespace LibrariaHospital
                 Console.WriteLine("Idade            : " + doentes[i].Idade);
                 Console.WriteLine("ID               : " + doentes[i].Id);
                 Console.WriteLine("Data nascimento  : " + doentes[i].DataNasc);
-                Console.WriteLine("Sexo             : " + doentes[i].Sexo);
-                Console.WriteLine("Profissao        : " + doentes[i].Profissao);
+                Console.WriteLine("Sexo             : " + doentes[i].Sex);
+                Console.WriteLine("Profissao        : " + doentes[i].Prof);
                 Console.WriteLine("Tipo de doença   : " + doentes[i].AdicionarInfecao.Tipo + "nome : " + doentes[i].AdicionarInfecao.Nome);
-                Console.WriteLine("Infetado         : " + doentes[i].Ativo);
+                Console.WriteLine("Infetado         : " + doentes[i].Estado);
                 Console.WriteLine();
             }
 

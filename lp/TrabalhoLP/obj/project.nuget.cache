@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9F76lgVsq6tb2z1dD0X+9/6vPaeUaZkrt4i/c0kR5BEj8o8gpO02Ff/wDPe+j6MYk+po0csqWabxjuJKQ5PWA==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+  "dgSpecHash": "ba9QoFRNWYHj397hMyswWlfXqvNNJ5tKk3hV8GzJTU6tuikdVn9crOBJ0sFWEEJdm3ETvUjPGm/qhCWTtIYIHA==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro Macedo\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Pedro Macedo\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
@@ -12,15 +12,5 @@
     "C:\\Users\\Pedro Macedo\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
     "C:\\Users\\Pedro Macedo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project LibrariaHospital is not compatible with netcoreapp2.1 (.NETCoreApp,Version=v2.1). Project LibrariaHospital supports: netstandard2.1 (.NETStandard,Version=v2.1)",
-      "libraryId": "LibrariaHospital",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

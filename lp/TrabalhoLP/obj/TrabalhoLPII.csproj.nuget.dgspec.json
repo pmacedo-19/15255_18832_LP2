@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\TrabalhoLPII.csproj": {}
+    "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
+    "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
+        "projectUniqueName": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
         "projectName": "LibrariaHospital",
-        "projectPath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
+        "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
         "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\obj\\",
+        "outputPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro Macedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -36,7 +36,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,23 +55,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\TrabalhoLPII.csproj": {
+    "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+        "projectUniqueName": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
         "projectName": "TrabalhoLPII",
-        "projectPath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+        "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
         "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\TrabalhoLP\\obj\\",
+        "outputPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro Macedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
-                "projectPath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
+              "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
+                "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
               }
             }
           }

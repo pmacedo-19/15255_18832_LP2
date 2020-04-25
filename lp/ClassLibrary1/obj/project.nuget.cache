@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AI1B9k5m7E5x+sYEZ196otQdPGLP51z7nO5gaOT8fcAtNbEXDTZtTRhW4m5ZMpM9hPNAIXfB+1cRN9oUgNfpjQ==",
+  "dgSpecHash": "wu5LxW3ede/5I9RGp9xkSQjO7Pge23AWIwhKZmU2UUpSbKMJATTRup8O1NjItHNk1uczWklxVSHiyQ9ATbsn/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pedro Macedo\\Desktop\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pedro Macedo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Pedro Macedo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
