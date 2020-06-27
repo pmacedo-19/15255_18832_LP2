@@ -3,13 +3,18 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    /// <summary>
+    /// Objeto para guardar informacoes de hospitais e suas lotacoes
+    /// </summary>
+    [Serializable]
     public class Hospital
     {
         #region Estado
 
-        const int LOTACAO = 100;
+        int lotacao;
         static int nDoentes;
         static Doentes[] doentes;
+        string nome;
 
         #endregion
 
@@ -18,25 +23,38 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor da classe Hospital
         /// </summary>
-        /// <param></param>
-        /// <returns></returns>
         public Hospital()
         {
-            doentes = new Doentes[LOTACAO];
+            nome = "";
+            lotacao = 0;
             nDoentes = 0;
         }
+
+        public string Nome
+        {
+            get { return Nome; }
+        }
+
 
         #endregion
 
         #region Metodos
         
+        public Hospital(string h, int l, int d )
+        {
+            nome = h;
+            lotacao = l;
+            nDoentes = d;
+        }
+
+
         /// <summary>
         /// Regista um doente
         /// </summary>
-        /// <param Doentes="d">Ficha do Doente</param>
+        /// @param Doentes="d">Ficha do Doente</param>
         public int InsereDoente(Doentes d)
         {
-            if (nDoentes >= LOTACAO) return 0;
+            if (nDoentes >= lotacao) return 0;
 
             doentes[nDoentes] = d;
             nDoentes++;
@@ -48,8 +66,8 @@ namespace LibrariaHospital
         /// <summary>
         /// Regista uma infecao num doente
         /// </summary>
-        /// <param Doentes="d">Ficha do Doente</param>
-        /// <param Infecao="infec">Informcao sobre a infecao</param>
+        /// @param Doentes="d"> Ficha do Doente </param>
+        /// @param Infecao="infec"> Informcao sobre a infecao </param>
         public static void RegistaInfecao(Infecao infec, Doentes d)
         {
             d.AdicionarInfecao = infec;
@@ -62,7 +80,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Verificar a existencia de um doente por nome
         /// </summary>
-        /// <param "nome" - Nome do Doente /param>
+        /// @param "nome" - Nome do Doente /param>
         /// <returns>True - se existir, False - se nao existir </returns>
         public bool ExisteDoenteNome(string nome)
         {
@@ -80,7 +98,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Procura uma ficha por ID
         /// </summary>
-        /// <param "id" - ID da Pessoa /param>
+        /// @param "id" - ID da Pessoa /param>
         /// <returns> Ficha da Pessoa </returns>
         public static Pessoa FichaDoenteID(int id)
         {
@@ -94,7 +112,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Procura Ficha por nome
         /// </summary>
-        /// <param "nome" - Nome do Doente /param>
+        /// @param "nome" - Nome do Doente /param>
         /// <returns> Ficha da pessoa </returns>
         public static Pessoa FichaDoenteNome(string nome)
         {
@@ -125,7 +143,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Passa de infetado a curado
         /// </summary>
-        /// <param"id" - ID do doente /param>
+        /// @param"id" - ID do doente /param>
         public void DesativarInfetado(int id)
         {
             for(int i = 0; i < nDoentes; i++)
@@ -139,7 +157,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Mostra a ficha de um doente atraves do ID inserido pelo user
         /// </summary>
-        /// <param "i" - Id /param>
+        /// @param "i" - Id /param>
         public void MostraFicha(int i)
         {
             Console.WriteLine("Ficha do id " + i + " ...");
@@ -182,35 +200,3 @@ namespace LibrariaHospital
         #endregion
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

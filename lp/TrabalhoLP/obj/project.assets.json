@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "DataFiles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LibrariaHospital": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataFiles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataFiles.dll": {}
+        }
+      },
       "LibrariaHospital/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -11,19 +24,44 @@
         "runtime": {
           "bin/placeholder/LibrariaHospital.dll": {}
         }
+      },
+      "RegrasClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataFiles": "1.0.0",
+          "LibrariaHospital": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RegrasClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegrasClass.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "DataFiles/1.0.0": {
+      "type": "project",
+      "path": "../DataFiles/DataFiles.csproj",
+      "msbuildProject": "../DataFiles/DataFiles.csproj"
+    },
     "LibrariaHospital/1.0.0": {
       "type": "project",
       "path": "../ClassLibrary1/LibrariaHospital.csproj",
       "msbuildProject": "../ClassLibrary1/LibrariaHospital.csproj"
+    },
+    "RegrasClass/1.0.0": {
+      "type": "project",
+      "path": "../Regras/RegrasClass.csproj",
+      "msbuildProject": "../Regras/RegrasClass.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LibrariaHospital >= 1.0.0"
+      "LibrariaHospital >= 1.0.0",
+      "RegrasClass >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+      "projectUniqueName": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
       "projectName": "TrabalhoLPII",
-      "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+      "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
       "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\obj\\",
+      "outputPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pedro Macedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +90,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
-              "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
+            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
+              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
+            },
+            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj": {
+              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj"
             }
           }
         }
@@ -76,12 +117,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

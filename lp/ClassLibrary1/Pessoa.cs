@@ -3,7 +3,11 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
-    public abstract class Pessoa
+    /// <summary>
+    /// Objeto para guardar informacao pessoal de pessoas
+    /// </summary>
+    [Serializable]
+    public class Pessoa
     {
 
         #region Enums
@@ -44,8 +48,6 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor para os dados pessoais
         /// </summary>
-        
-        // Incializacao da estrutura
         public Pessoa()
         {
             idade = 0;
@@ -56,10 +58,10 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor para os dados vindos do exterior
         /// </summary>
-        /// <param "i" - Idade /param>
-        /// <param "n" - Nome /param>
-        /// <param "date" - DataNascimento /param>
-        public Pessoa(int i, string n, int d, DateTime date, int sexo, int profissao)
+        /// @param "i" - Idade /param>
+        /// @param "n" - Nome /param>
+        /// @param "date" - DataNascimento /param>
+        public Pessoa(int i, string n, DateTime date, int sexo, int profissao)
         { 
             nome = n;
             idade = i;
